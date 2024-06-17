@@ -44,6 +44,108 @@ dashcoeff = {
             "b2gpplyp": {"params": {"s6": 0.4, "alpha6": 20.0, "sr6": 1.1}},
             "dsd-blyp": {"params": {"s6": 0.41, "alpha6": 60.0, "sr6": 1.1}},
             "core-dsd-blyp": {"params": {"s6": 0.41, "alpha6": 60.0, "sr6": 1.1}},
+
+            # Coefficients pulled from A. Karton, D. Gruzman, J. M. L. Martin, J. Phys. Chem. A 113, 8434, 2009.
+            # (DOI 10.1021/acs.jctc.5b00400) on page 5 of supplemental information (SI isopen access), but some
+            # originally come from different studies (listed below).
+            "svwn5": {
+                "params": {"s6": -0.25, "alpha6": 20.0, "sr6": 1.1},
+                "citation": "    A. Karton, D. Gruzman, J. M. L. Martin, J. Phys. Chem. A 113, 8434, 2009\n",
+            },
+            "tpssh": {
+                "params": {"s6": 0.95, "alpha6": 20.0, "sr6": 1.1},
+                "citation": "    A. Karton, D. Gruzman, J. M. L. Martin, J. Phys. Chem. A 113, 8434, 2009\n",
+            },
+            "b97-1": {
+                "params": {"s6": 0.65, "alpha6": 20.0, "sr6": 1.1},
+                "citation": "    A. Karton, D. Gruzman, J. M. L. Martin, J. Phys. Chem. A 113, 8434, 2009\n",
+            },
+            "b97-2": {
+                "params": {"s6": 1.05, "alpha6": 20.0, "sr6": 1.1},
+                "citation": "    A. Karton, D. Gruzman, J. M. L. Martin, J. Phys. Chem. A 113, 8434, 2009\n",
+            },
+            "b97-3": {
+                "params": {"s6": 0.90, "alpha6": 20.0, "sr6": 1.1},
+                "citation": "    A. Karton, D. Gruzman, J. M. L. Martin, J. Phys. Chem. A 113, 8434, 2009\n",
+            },
+            "tpss1kcis": {
+                "params": {"s6": 0.90, "alpha6": 20.0, "sr6": 1.1},
+                "citation": "    A. Karton, D. Gruzman, J. M. L. Martin, J. Phys. Chem. A 113, 8434, 2009\n",
+            },
+            "PW6B95": {
+                "params": {"s6": 0.50, "alpha6": 20.0, "sr6": 1.1},
+                "citation": "    A. Karton, D. Gruzman, J. M. L. Martin, J. Phys. Chem. A 113, 8434, 2009\n",
+            },
+            "b1b95": {
+                "params": {"s6": 0.75, "alpha6": 20.0, "sr6": 1.1},
+                "citation": "    A. Karton, D. Gruzman, J. M. L. Martin, J. Phys. Chem. A 113, 8434, 2009\n",
+            },
+            "hf": {
+                "params": {"s6": 1.20, "alpha6": 20.0, "sr6": 1.1},
+                "citation":
+                    "    A. Karton, D. Gruzman, J. M. L. Martin, J. Phys. Chem. A 113, 8434, 2009\n" +
+                    "    J.-F. Lam`ere, A. Karton, J. M. L. Martin, in preparation.\n",
+            },
+            "htch407": {
+                "params": {"s6": 1.10, "alpha6": 20.0, "sr6": 1.1},
+                "citation":
+                    "    A. Karton, D. Gruzman, J. M. L. Martin, J. Phys. Chem. A 113, 8434, 2009\n" +
+                    "    J.-F. Lam`ere, A. Karton, J. M. L. Martin, in preparation.\n",
+            },
+            "mpw1pw91": {
+                "params": {"s6": 0.85, "alpha6": 20.0, "sr6": 1.1},
+                "citation":
+                    "    A. Karton, D. Gruzman, J. M. L. Martin, J. Phys. Chem. A 113, 8434, 2009\n" +
+                    "    J.-F. Lam`ere, A. Karton, J. M. L. Martin, in preparation.\n",
+            },
+            "m06-l": {
+                "params": {"s6": 0.20, "alpha6": 20.0, "sr6": 1.1},
+                "citation": "    A. Karton, A. Tarnopolsky, J.-F. Lam`ere, G. C. Schatz, J. M. L. Martin, J. Phys. Chem. A 112, 12868, 2008\n",
+            },
+            "b3pw91": {
+                "params": {"s6": 1.10, "alpha6": 20.0, "sr6": 1.1},
+                "citation": "    A. Karton, A. Tarnopolsky, J.-F. Lam`ere, G. C. Schatz, J. M. L. Martin, J. Phys. Chem. A 112, 12868, 2008\n",
+            },
+            "x3lyp": {
+                "params": {"s6": 0.85, "alpha6": 20.0, "sr6": 1.1},
+                "citation": "    A. Karton, A. Tarnopolsky, J.-F. Lam`ere, G. C. Schatz, J. M. L. Martin, J. Phys. Chem. A 112, 12868, 2008\n",
+            },
+            "bmk": {
+                "params": {"s6": 0.65, "alpha6": 20.0, "sr6": 1.1},
+                "citation": "    A. Karton, A. Tarnopolsky, J.-F. Lam`ere, G. C. Schatz, J. M. L. Martin, J. Phys. Chem. A 112, 12868, 2008\n",
+            },
+            "m06-2x": {
+                "params": {"s6": 0.06, "alpha6": 20.0, "sr6": 1.1},
+                "citation": "    A. Karton, A. Tarnopolsky, J.-F. Lam`ere, G. C. Schatz, J. M. L. Martin, J. Phys. Chem. A 112, 12868, 2008\n",
+            },
+            "m06": {
+                "params": {"s6": 0.25, "alpha6": 20.0, "sr6": 1.1},
+                "citation": "    A. Karton, A. Tarnopolsky, J.-F. Lam`ere, G. C. Schatz, J. M. L. Martin, J. Phys. Chem. A 112, 12868, 2008\n",
+            },
+            "b2kplyp": {
+                "params": {"s6": 0.30, "alpha6": 20.0, "sr6": 1.1},
+                "citation": "    A. Karton, A. Tarnopolsky, J.-F. Lam`ere, G. C. Schatz, J. M. L. Martin, J. Phys. Chem. A 112, 12868, 2008\n",
+            },
+            "b2tplyp": {
+                "params": {"s6": 0.48, "alpha6": 20.0, "sr6": 1.1},
+                "citation": "    A. Karton, A. Tarnopolsky, J.-F. Lam`ere, G. C. Schatz, J. M. L. Martin, J. Phys. Chem. A 112, 12868, 2008\n",
+            },
+            "mpw2gpplyp": {
+                "params": {"s6": 0.28, "alpha6": 20.0, "sr6": 1.1},
+                "citation": "    A. Karton, A. Tarnopolsky, J.-F. Lam`ere, G. C. Schatz, J. M. L. Martin, J. Phys. Chem. A 112, 12868, 2008\n",
+            },
+            "mp2": {
+                "params": {"s6": -0.16, "alpha6": 20.0, "sr6": 1.1},
+                "citation": "    A. Karton, A. Tarnopolsky, J.-F. Lam`ere, G. C. Schatz, J. M. L. Martin, J. Phys. Chem. A 112, 12868, 2008\n",
+            },
+            "scs-mp2": {
+                "params": {"s6": 0.17, "alpha6": 20.0, "sr6": 1.1},
+                "citation": "    A. Karton, A. Tarnopolsky, J.-F. Lam`ere, G. C. Schatz, J. M. L. Martin, J. Phys. Chem. A 112, 12868, 2008\n",
+            },
+            "mpw2plyp": {
+                "params": {"s6": 0.40, "alpha6": 20.0, "sr6": 1.1},
+                "citation": "    T. Schwabe, S. Grimme, Phys. Chem. Chem. Phys. 9, 3397, 2007\n",
+            },
         },
     },
     "d3zeroatm": {
