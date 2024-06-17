@@ -463,6 +463,23 @@ dashcoeff = {
             "revpbe38": {"params": {"s6": 1.0, "s8": 0.862, "sr6": 1.021, "alpha6": 14.0, "sr8": 1.000}},
             # unreferenced
             "hf": {"params": {"s6": 1.0, "s8": 1.746, "sr6": 1.158, "alpha6": 14.0, "sr8": 1.000}},
+
+            "mgga_ms0": {
+                "params": {"s6": 1.0, "s8": 0.0, "sr6": 1.15, "alpha6": 14.0, "sr8": 1.000},
+                "citation": "    J. Sun, R. Haunschild, B. Xiao, I. W. Bulik, G. E. Scuseria, J. P. Perdew, J. Chem. Phys. 138, 044113 (2013).\n",
+            },
+            "mgga_ms1": {
+                "params": {"s6": 1.0, "s8": 0.0, "sr6": 1.05, "alpha6": 14.0, "sr8": 1.000},
+                "citation": "    J. Sun, R. Haunschild, B. Xiao, I. W. Bulik, G. E. Scuseria, J. P. Perdew, J. Chem. Phys. 138, 044113 (2013).\n",
+            },
+            "mgga_ms2": {
+                "params": {"s6": 1.0, "s8": 0.0, "sr6": 1.14, "alpha6": 14.0, "sr8": 1.000},
+                "citation": "    J. Sun, R. Haunschild, B. Xiao, I. W. Bulik, G. E. Scuseria, J. P. Perdew, J. Chem. Phys. 138, 044113 (2013).\n",
+            },
+            "mgga_ms2h": {
+                "params": {"s6": 1.0, "s8": 0.0, "sr6": 1.14, "alpha6": 14.0, "sr8": 1.000},
+                "citation": "    J. Sun, R. Haunschild, B. Xiao, I. W. Bulik, G. E. Scuseria, J. P. Perdew, J. Chem. Phys. 138, 044113 (2013).\n",
+            },
         },
     },
     "d3bjatm": {
