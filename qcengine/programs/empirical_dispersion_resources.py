@@ -480,6 +480,17 @@ dashcoeff = {
                 "params": {"s6": 1.0, "s8": 0.0, "sr6": 1.14, "alpha6": 14.0, "sr8": 1.000},
                 "citation": "    J. Sun, R. Haunschild, B. Xiao, I. W. Bulik, G. E. Scuseria, J. P. Perdew, J. Chem. Phys. 138, 044113 (2013).\n",
             },
+
+            "bloc": {
+                "params": {"s6": 1.0, "s8": 0.888, "sr6": 1.104, "alpha6": 14.0, "sr8": 1.000},
+                "citation": "    L. A. Constantin, E. Fabiano, F. Della Sala, J. Chem. Theory Comp. 9, 2256 (2013).\n",
+            },
+
+            "lc-wpbe08": {
+                "params": {"s6": 1.0, "s8": 1.279, "sr6": 1.355, "alpha6": 14.0, "sr8": 1.000},
+                "citation": "    Grimme DFT-D3 Homepage. https://www.chemie.uni-bonn.de/grimme/de/software/dft-d3/zero_damping\n"
+                + "    Mardirossian, N.; Head-Gordon, M. (2017), 115(19), 2315-2372.\n",
+            },
         },
     },
     "d3bjatm": {
@@ -763,6 +774,12 @@ dashcoeff = {
             # special PBEh-D3-gCP/def2-mSVP parametrization
             "pbeh3c": {"params": {"s6": 1.000, "s8": 0.0000, "a1": 0.4860, "a2": 4.5000}},
             "core-dsd-blyp": {"params": {"s6": 0.500, "s8": 0.2130, "a1": 0.0000, "a2": 6.0519}},
+
+            "lc-wpbe08": {
+                "params": {"s6": 1.000, "s8": 1.8541, "a1": 0.3919, "a2": 5.0897},
+                "citation": "    Grimme DFT-D3 Homepage. https://www.chemie.uni-bonn.de/grimme/de/software/dft-d3/zero_damping\n"
+                + "    Mardirossian, N.; Head-Gordon, M. (2017), 115(19), 2315-2372.\n",
+            },
         },
     },
     "d3mzeroatm": {
@@ -829,6 +846,12 @@ dashcoeff = {
             "wpbe": {"params": {"s6": 1.000, "s8": 0.906564, "a1": 0.563761, "a2": 3.593680}},  # formerly lcwpbe
             "sapt0": {"params": {"s6": 1.000, "s8": 0.713190, "a1": 0.079541, "a2": 3.627854}},  # JBS 01/2021
             "hf": {"params": {"s6": 1.000, "s8": 0.713190, "a1": 0.079541, "a2": 3.627854}},  # JBS 01/2021
+
+            "lc-wpbe08": {
+                "params": {"s6": 1.000, "s8": 0.906564, "a1": 0.563761, "a2": 3.593680},
+                "citation": "    Smith, D. G. A.; Burns, L. A.; Patkowski, K.; Sherrill, C. D. (2016), J. Phys. Chem. Lett.; 7: 2197.\n"
+                + "    Mardirossian, N.; Head-Gordon, M. (2017), 115(19), 2315-2372.\n",
+            },
         },
     },
     "d3opatm": {
