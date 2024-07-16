@@ -12,6 +12,12 @@ on:
   push:
     branches:
       - kb1rd_more_dispersion
+  workflow_dispatch:
+    inputs:
+      environment: # I think environment is what I want here, but I can't make sense of GH docs...
+        description: 'Environment to build'
+        type: environment
+        required: true
 
 permissions:
   contents: read
