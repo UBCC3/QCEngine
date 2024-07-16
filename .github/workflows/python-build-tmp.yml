@@ -12,12 +12,16 @@ on:
   push:
     branches:
       - kb1rd_more_dispersion
-  workflow_dispatch:
-    inputs:
-      environment: # I think environment is what I want here, but I can't make sense of GH docs...
-        description: 'Environment to build'
-        type: environment
-        required: true
+      # https://github.com/orgs/community/discussions/24657#discussioncomment-3244894
+      # So, we have to resort to messy hacks to force github to just build
+      # Force push to this branch to trigger a build without messing up the PR branch
+      - gh_actions_trigger_hack
+  #workflow_dispatch:
+  #  inputs:
+  #    environment: # I think environment is what I want here, but I can't make sense of GH docs...
+  #      description: 'Environment to build'
+  #      type: environment
+  #      required: true
 
 permissions:
   contents: read
